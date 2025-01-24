@@ -1,0 +1,7 @@
+if game.PlaceId == 155615604 then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zer0xOntop/PrisionLife.e/refs/heads/main/Prisionlifeshitsctiptft"))()
+else
+    local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+    Fluent:Notify({Title = "Tynex Hub", Content = "Unsupported Game", Duration = 3})
+end
