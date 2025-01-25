@@ -4,6 +4,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Zer0xOntop/PrisionLif
 elseif game.PlaceId == 3851622790 then
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Zer0xOntop/BreakingStory/refs/heads/main/Breaking%20Story"))()
+elseif game.PlaceId == 4620170611 then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zer0xOntop/BreakingStory/refs/heads/main/Breaking%20Story"))()
 else
     local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
     Fluent:Notify({Title = "Tynex Hub", Content = "Unsupported Game", Duration = 3})
